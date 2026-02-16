@@ -193,6 +193,7 @@ async def text_to_speech(text: str = Form(...), lang: str = Form(...)):
 
 
 
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, port=8000)
